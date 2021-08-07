@@ -1,0 +1,51 @@
+:root {
+  --main-color: blue;
+  --main--color1: rgb(245, 206, 212);
+}
+* {
+  box-sizing: border-box;
+  /* padding: 2px; */
+}
+body {
+  margin: 0;
+}
+
+.header {
+  background: url(image/bg.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 60vh;
+}
+.nav-link img {
+  width: 20vw;
+}
+
+a.nav-link:hover {
+  color: red;
+  font-size: 2rem;
+}
+.Projects {
+  background: var(--main--color1);
+}
+
+.section-title {
+  border-bottom: 0.7rem solid var(--main-color);
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+skill-list {
+  font-size: 3rem;
+  margin: 2rem;
+}
+.summary {
+  border-radius: 20px;
+}
+.footer {
+  background: #000;
+  color: white;
+  min-height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
